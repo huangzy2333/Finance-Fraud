@@ -9,22 +9,23 @@ This repository stores code from data fusion to model prediction, but the code c
 * Prediction
 * Feature selection
 
-
 ## Data Fusion
 Environment: Pytorch 1.x
 
 Data_fusion. py contains three data fusion methods, namely Concat, CompactBilinarPooling, and TensorFusion. After generating three different fusion data, they are compared on CM4.
 
 ## Prediction
-Environment： Tensorflow 2.x
+Environment：Tensorflow 2.x
 
 #### Baseline
-The baseline shows the model from CM1 to CM4
+The baseline shows the model from CM1 to CM4. The evaluation criteria predicted by LR, SVM, XGBoost, and CNN will be presented separately.
 #### CM5
-cm5. py shows the stacking model CM5 that only uses three types of data fusion
+cm5. py shows the stacking model CM5 that only uses three types of data fusion.
 #### CM6
 cm6. py shows the final stacking model. Replacing different fused datasets in cm6.py will also draw different feature importance.
 stacking roc. py displays the ROC curves of the CM4, CM5, and CM6 models, demonstrating the superiority of the CM6 model, while cost_roc. py displays the ROC curves of the CM6 model after adding error costs.
+
+The above three prediction files can be directly run together through main.py. And the cm6_demo can display the prediction process and results of the cm6 model.
 
 ## Feature selection
 The top30_features.py shows the importance ranking of three types of feature data, with the higher the ranking, the greater the impact of this feature on fraud prediction.
