@@ -4,7 +4,7 @@ The contributions of this research are two-fold. First, our research contributes
 
 ![A Framework of Multi-source Evidence Integrated Fraud Detection](example.png)
 
-This repository stores code from data fusion to model prediction, but the code capability is not strong, for reference only.
+This repository stores code from data fusion to model prediction, but the code capability is not strong, for reference only. All code is compiled using Python 3.8
 * Data Fusion
 * Prediction
 * Feature selection
