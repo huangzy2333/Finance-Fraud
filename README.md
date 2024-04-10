@@ -4,7 +4,7 @@ The contributions of this research are two-fold. First, our research contributes
 
 ![A Framework of Multi-source Evidence Integrated Fraud Detection](example.png)
 
-This repository stores code from data fusion to model prediction, but the code capability is not strong, for reference only. All code is compiled using Python 3.8
+This repository stores code from data fusion to model prediction, but the code capability is not strong, for reference only. All code is compiled using Python 3.8.
 * Data Fusion
 * Prediction
 * Feature selection
@@ -25,7 +25,7 @@ cm5. py shows the stacking model CM5 that only uses three types of data fusion.
 cm6. py shows the final stacking model. Replacing different fused datasets in cm6.py will also draw different feature importance.
 stacking roc. py displays the ROC curves of the CM4, CM5, and CM6 models, demonstrating the superiority of the CM6 model, while cost_roc. py displays the ROC curves of the CM6 model after adding error costs.
 
-The above three prediction files can be directly run together through main.py. And the cm6_demo can display the prediction process and results of the cm6 model.
+The above three prediction files can be directly run together through main.py. And the cm6_demo can display the prediction process and results of the cm6 model, running completely in about 20 minutes.
 
 ## Feature selection
 The top30_features.py shows the importance ranking of three types of feature data, with the higher the ranking, the greater the impact of this feature on fraud prediction.
